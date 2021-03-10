@@ -9,8 +9,6 @@ output:
     lib_dir: libs
     yolo: false
     mathjax: NULL
-    includes:
-      in_header: meta.html
     seal: true 
     nature:
       ratio: 16:9
@@ -75,7 +73,7 @@ ptrr::register_plexsans()
 ptrr::register_plexsans_condensed()
 ```
 
-```{r meta, include=FALSE, eval = FALSE}
+```{r meta, include=FALSE}
 library(metathis)
 meta() %>%
   meta_general(
@@ -93,8 +91,7 @@ meta() %>%
     og_author = "Petr Bouchal",
     twitter_card_type = "summary_large_image",
     twitter_creator = "@petrbouchal"
-  ) %>% 
-  write_meta("meta.html")
+  )
 ```
 
 class: left, middle, inverse
