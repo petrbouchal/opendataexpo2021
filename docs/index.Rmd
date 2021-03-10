@@ -77,12 +77,12 @@ ptrr::register_plexsans_condensed()
 library(metathis)
 meta() %>%
   meta_general(
-    description = "Lepší využití dat ve státní správě",
+    description = "Pitch: [Pandemic] Open Data Expo 2021",
     generator = "xaringan and remark.js"
   ) %>% 
   meta_name("github-repo" = "petrbouchal/opendataexpo2021") %>% 
   meta_social(
-    title = "Title",
+    title = "Lepší využití dat ve státní správě",
     url = "https://petrbouchal.xyz/opendataexpo2021",
     image = "https://petrbouchal.xyz/opendataexpo2021/twitter_card.png",
     image_alt = "social alt",
